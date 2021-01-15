@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{url_for('static', filename = 'css/style.css')}}" rel="stylesheet">
+    <img id="logo" src="{{url_for('static', filename='logo.jpg')}}" />
+
+    
+<style>        
+#image5{
+        width:80%;
+        padding:0.5em;
+        margin:auto;
+        height: 100;
+        border-image: auto;
+        text-align: center;
+            
+        }
+        
+#image5{
+        width:80%;
+        padding:0.5em;
+        margin:auto;
+        height: 100;
+        border-image: auto;
+        text-align: center;
+            
+        } 
+
+#image6{
+    width:80%;
+    padding:0.5em;
+    margin:auto;
+    height: 100;
+    border-image: auto;
+    text-align: center;
+            
+        } 
+
+        
+</style>        
+
+    <title>Total dons récoltés</title>
+</head>
+<body>
+    
+    
+    <p>Le montant total des dons est: {{montanttotal}} €.</p>  
+    <p>Le nombre de dons est de: {{nbdons}} dons.</p>
+    
+    <div id="image5">   
+        <img src="{{url_for('static', filename='image5.png')}}" />
+    </div>
+    <div id="image6">   
+        <img src="{{url_for('static', filename='image6.png')}}" />
+    </div>
+
+</body>
+</html>

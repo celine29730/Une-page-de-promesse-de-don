@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{url_for('static', filename = 'css/style.css')}}" rel="stylesheet">
+    <img id="logo" src="{{url_for('static', filename='logo.jpg')}}" />
+
+
+<style>
+#coeur{
+    width:80%;
+    padding:0.5em;
+    margin:auto;
+    height: 100;
+    border-image: auto;
+    text-align: center;
+    
+        }
+        
+</style>       
+
+        
+    <title>Fédération Française des Diabétiques</title>
+</head>
+<body>
+    <a href="{{url_for('suivante')}}">Formulaire de don</a>
+
+
+    <div id="page">
+        <div id="entete">
+            <h1>Fédération française des diabétiques</h1>
+            
+            
+            <p>La Fédération Française des Diabétiques est une association de patients, au service des patients et dirigée par des patients. 
+                Avec son réseau d’environ 100 associations locales et de délégations, réparties sur l’ensemble du territoire et son siège national, 
+                elle a pour vocation de représenter les 4 millions de patients diabétiques.</p>
+            
+        
+        </div>
+
+        <div id="regles">
+            <h2>La Fédération Française des Diabétiques s’est donnée 3 missions sociales :</h2> 
+            <ul>
+                <li><P>Informer, accompagner et prévenir : cette mission s’adresse aux personnes atteintes de diabète, à leur entourage ainsi qu’à 
+                    toutes les personnes à risque de diabète. Elle est exercée par la Fédération à travers ses supports d’information, 
+                    d’accompagnement et de prévention ainsi que par son rôle de coordinateur de réseau national et de formation de ses bénévoles.</P></li>
+                
+                
+                <li><p>Défendre individuellement et collectivement les patients : cette mission concerne les actions de la Fédération pour faire 
+                    reconnaître les droits individuels et collectifs des personnes diabétiques. Il s’agit de faire reconnaître les personnes 
+                    atteintes de diabète comme des citoyens à part entière, lutter contre les discriminations dont ils font l’objet, 
+                    les représenter dans les lieux où la présence de la Fédération est pertinente et faire en sorte qu’ils bénéficient de soins 
+                    de qualité sur tout le territoire.</p></li>  
+                
+                
+                <li><p>Soutenir la recherche et l'innovation : cette mission se rapporte au soutien de la Fédération dans le domaine de la recherche 
+                    scientifique et médicale afin d’œuvrer d’une part à la guérison du diabète, et d’autre part, co-construire et évaluer les 
+                    innovations améliorant la qualité de vie des patients, en développant le Diabète LAB de la Fédération.</p></li>          
+            </ul>
+        </div>
+
+        <div id="coeur">   
+            <img src="{{url_for('static', filename='coeur.jpg')}}" />
+        </div>
+        
+    
+</body>
+</html>
