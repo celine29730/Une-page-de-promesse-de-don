@@ -19,7 +19,10 @@ de valider les conditions et termes liés à la donation.
 Un bouton **valider** a été ajouté afin de récupérer toutes les données et es insérer en base. 
 Notre base de donnée a été créée sur MongoDb Atlas. On y retrouve la base de donnée(don_diab) et la collection don ainsi que les données qui ont été insérées.
 
-![image bdd](https://github.com/celine29730/Une-page-de-promesse-de-don/blob/main/bdd.png)
+[image bdd](https://github.com/celine29730/Une-page-de-promesse-de-don/blob/main/bdd.png)
+
+un bouton **Total dons récoltés** est créé permettant d'accéder à la troisième page.
+
 
 
 
