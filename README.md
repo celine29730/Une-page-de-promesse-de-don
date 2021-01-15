@@ -8,7 +8,7 @@ La première page du site est l'accueil avec une présentation générale de l'a
 
 [info](https://github.com/celine29730/Une-page-de-promesse-de-don/blob/main/info.png)
 
-Sur cette page on trouve également les proncipales missions de l'association.
+Sur cette page on trouve également les principales missions de l'association.
 A côté du logo, a été créé un bouton permettant d'accéder à la deuxième page du site comprenant le formulaire à remplir.
 
 [formulaire](https://github.com/celine29730/Une-page-de-promesse-de-don/blob/main/formulaire.png)
