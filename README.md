@@ -11,4 +11,14 @@ La première page du site est l'accueil avec une présentation générale de l'a
 Sur cette page on trouve également les proncipales missions de l'association.
 A côté du logo, a été créé un bouton permettant d'accéder à la deuxième page du site comprenant le formulaire à remplir.
 
+[formulaire](https://github.com/celine29730/Une-page-de-promesse-de-don/blob/main/formulaire.png)
+
+Le formulaire comprend tous les champs de saisie nécessaire pour pouvoir faire un don (coordonnées des donateurs ainsi que le montant du don). On trouve une case à cocher afin
+de valider les conditions et termes liés à la donation.
+
+Un bouton **valider** a été ajouté afin de récupérer toutes les données et es insérer en base. 
+Notre base de donnée a été créée sur MongoDb Atlas. On y retrouve la base de donnée(don_diab) et la collection don.
+
+
+
 
