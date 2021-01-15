@@ -23,6 +23,11 @@ Notre base de donnée a été créée sur MongoDb Atlas. On y retrouve la base d
 
 un bouton **Total dons récoltés** est créé permettant d'accéder à la troisième page.
 
+[bilan](https://github.com/celine29730/Une-page-de-promesse-de-don/blob/main/bilan.png)
+
+Sur cette troisième page figure deux compteurs: un qui comptabilise la somme en euros des dons récoltés et un qui compte le nombre de dons effectués.
+On y trouve aussi une note explicative sur l'importance des dons pour la recherche concernant le diabète qui permettra non seulement d'améliorer le quotidien des diabétiques et peut être un jour de guérir de cette maladie chronique qui touchent de plus en plus de personnes.
+
 
 
 
